@@ -700,8 +700,10 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-image: url("images/overlay.png"), url("images/bg.jpg");
-  background-repeat: repeat, no-repeat;
+  background-image: url("images/overlay.png");
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(75, 116, 69) 0%, rgb(46, 84, 85) 35%, rgb(0, 71, 1) 100%);
+  background-repeat: repeat, no-repeat; 
   background-size: auto, 100% 100%;
   background-attachment: fixed;
   overflow-y: scroll; }
